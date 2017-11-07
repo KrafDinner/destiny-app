@@ -1,0 +1,19 @@
+{
+  "name": "destiny",
+  "version": "1.0.0",
+  "description": "Destiny Clan Advisor from Fireteam Herp Derp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "start": "node ./bin/www"
+  },
+  "author": "Cody Knapp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
